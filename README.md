@@ -31,4 +31,4 @@ Visual Studio Code (opcional)
 
 Angular-CLI 11 +
 
-É necessário rodar os dois projetos (.NET e Angular) simultaneamente para que o o frontend possa consultar o backend corretamente. Foi utilizada uma solução de proxy no projeto Angular para evitar problemas relacionados ao CORS, dessa forma o próprio Angular faz as requisições ao backend, ao invés de serem feitas diretamente pelo navegador. O proxy deve ser configurado, se for preciso. [a link](https://github.com/vbazuke/Catalogo-Jogos-DIO/blob/main/front-catalogo/proxy.conf.json)
+É necessário rodar os dois projetos (.NET e Angular) simultaneamente para que o o frontend possa consultar o backend corretamente. Foi utilizada uma solução de proxy no projeto Angular para evitar problemas relacionados ao CORS, dessa forma o próprio Angular faz as requisições ao backend, ao invés de serem feitas diretamente pelo navegador. O proxy deve ser configurado, se for preciso. [proxy.conf](https://github.com/vbazuke/Catalogo-Jogos-DIO/blob/main/front-catalogo/proxy.conf.json)
