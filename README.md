@@ -1,6 +1,6 @@
 # Catálogo de Jogos DIO
 
-Projeto desenvolvido no o bootcamp da Take Blip da Digital Innovation One. Este é o repo com a aplicação original criada por Thiago Campos de Oliveira https://github.com/ThiagoAcam/ApiCatalogoJogos .
+Projeto desenvolvido no o bootcamp da Take Blip na Digital Innovation One. Este é o repo com a aplicação original criada por Thiago Campos de Oliveira https://github.com/ThiagoAcam/ApiCatalogoJogos .
 
 Trata-se de uma aplicação backend .NET de catálogo de jogos, que expõe uma API e seus endpoints para ser utilizada/consumida por outra aplicação interessada em seus dados. 
 Na versão original são criados e expostos endpoints para criação, atualização e remoção de um jogo.
