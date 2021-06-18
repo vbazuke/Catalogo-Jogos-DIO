@@ -17,9 +17,6 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { GameCardComponent } from './game-card/game-card.component';
-import { GameFormNewComponent } from './game-form-new/game-form-new.component';
-import { GameFormUpdateComponent } from './game-form-update/game-form-update.component';
-import { GameFormDeleteComponent } from './game-form-delete/game-form-delete.component';
 
 
 @NgModule({
@@ -27,9 +24,6 @@ import { GameFormDeleteComponent } from './game-form-delete/game-form-delete.com
     AppComponent,
     MainNavComponent,
     GameCardComponent,
-    GameFormNewComponent,
-    GameFormUpdateComponent,
-    GameFormDeleteComponent,
   ],
   imports: [
     BrowserModule,

@@ -66,7 +66,5 @@ export class GameCardComponent implements OnInit {
       },
     ] */
 
-    console.log(this.games);
-
   }
 }

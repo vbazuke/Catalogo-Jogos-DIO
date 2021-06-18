@@ -1,7 +1,10 @@
 <div class="content">
-  <div fxLayout="row wrap" fxLayoutGap="16px grid" >
+  <ng-template #noGames>
+    <h1>Nenhum jogo cadastrado, ou servidor não respondeu a requisição.</h1>
+  </ng-template>
+  <div fxLayout="row wrap" fxLayoutGap="16px grid" *ngIf="games.length; else noGames">
     <div fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let game of games">
-      <mat-card class="mat-elevation-z4" style="margin-top: 20px;">
+      <mat-card class="mat-elevation-z4" style="margin-top: 0px;">
         <mat-card-header>
           <mat-card-title>{{game.nome}}</mat-card-title>
         </mat-card-header>

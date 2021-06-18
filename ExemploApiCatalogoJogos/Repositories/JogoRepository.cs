@@ -63,7 +63,7 @@ namespace ExemploApiCatalogoJogos.Repositories
                 new Jogo
                 {
                     Id = Guid.Parse("92576bd2-388e-4f5d-96c1-8bfda6c5a268"),
-                    Nome = "The Sins",
+                    Nome = "The Sims",
                     Produtora = "EA",
                     Preco = 80,
                     Imagem = "../../assets/images/thesims.jpg",
